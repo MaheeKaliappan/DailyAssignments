@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class InterviewPanel {
 
-	Deque<String> interview = new ArrayDeque<String>();
+	Queue<String> interview = new LinkedList<String>();
 	Queue<String> waitingCandidate = new LinkedList<String>();
 	
 	Scanner reader = new Scanner(System.in);
